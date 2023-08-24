@@ -20,7 +20,7 @@ function CameraRig({ children }) {
       if (isMobile) targetPosition = [0, 0.2, 2.5];
     } else {
       if (isBreackpoint) targetPosition = [0, 0, 2.5];
-      if (isMobile) targetPosition = [0, 0, 2];
+      if (isMobile) targetPosition = [0, 0, 2.5];
     }
 
     easing.damp3(state.camera.position, targetPosition, 0.25, delta);
